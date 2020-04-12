@@ -1,5 +1,5 @@
 import pytest
-from color_signal import ColorSignal, get_color_signal, get_color_enum, get_color_by_value
+from color_signal import ColorSignal, get_color_signal, get_color_enum, get_color_by_value, get_color_by_value2
 
 def test_get_color_signal():
     value = get_color_signal()
@@ -17,3 +17,7 @@ def test_get_color_by_value_enum():
 
 def test_get_color_by_value_dict():
     assert "BLUE" == get_color_by_value()
+
+
+def test_get_color_by_value2_dict():
+    assert "GREEN" == get_color_by_value2()
