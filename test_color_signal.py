@@ -1,5 +1,5 @@
 import pytest
-from color_signal import ColorSignal, get_color_signal, get_color_enum, get_color_by_value, get_color_by_value2
+from lib.color_signal import ColorSignal, get_color_signal, get_color_enum, get_color_by_value, get_color_by_value2
 
 def test_get_color_signal():
     value = get_color_signal()
