@@ -21,3 +21,7 @@ def get_color_by_value():
 
 def get_color_by_value2():
     return color_str[2]
+
+def get_multi_color_by_values():
+    value = [1,2,1,3]
+    return [color_str[i] for i in value]
